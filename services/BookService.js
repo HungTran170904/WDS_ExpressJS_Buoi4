@@ -2,7 +2,7 @@ import fs from "fs/promises"
 import { BASE_STORAGE_NAME } from "../configs/EnvConfig.js";
 import PagingUtil from "../common/PagingUtil.js";
 import NotFoundError from "../errors/NotFoundError.js";
-import BadRequestError from "../Errors/BadRequestError.js";
+import BadRequestError from "../errors/BadRequestError.js";
 
 class BookService {
           constructor(){
