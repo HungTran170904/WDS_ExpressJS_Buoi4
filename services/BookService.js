@@ -4,7 +4,7 @@ import PagingUtil from "../common/PagingUtil.js";
 import NotFoundError from "../errors/NotFoundError.js";
 import BadRequestError from "../errors/BadRequestError.js";
 
-class BookService {
+class BookService { 
           constructor(){
                     this.STORAGE_PATH= BASE_STORAGE_NAME+"/books.json";
           }
